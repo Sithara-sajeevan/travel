@@ -1,0 +1,152 @@
+
+<!-- OFFERS -->
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-3 m-4">
+      <div class="card-wrapper">
+        <div class="content">
+          <div class="face-front z-depth-2">
+            <img src="./manali2.jpg" class="square m-2" width="150px" height="150px" alt="">
+            <div class="card-body ">
+              <h4 class="font-weight-bold ">COUPLE PACKAGE</h4>
+              <p class="font-weight-bold blue text">nfkjdfaehfhsghjshhhj</p>
+              <P>HJFIUEWUHFIUEW</P>
+              <hr>
+           
+
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="p-2 fa-lg fb-ic" href=""></a></li>
+          </ul>
+
+b
+          <p>jfhhgwgf</p>
+          <h5 class="font-weight-bold">kjrtklkhr</h5>
+          <button class="btn btn-ml-1">ghfhujf</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+---------------------------------------------------------------------
+
+<div class="card1-container">
+
+  <div class="row">
+    <div class="box-item col-md-4">
+  
+   
+    <div class="card1 card1-front ">
+      <h5 class="card-title">Card title</h5>
+    
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSnUFCjZklSAX6ThQyIeA_Ew0EriGOu9pBg&usqp=CAU" class="card1-img-top" alt="...">
+      
+    </div>
+    <div class="card1 card1-back ">
+      <div class="card1-body bg-light">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <a href="#"  class="btn btn-primary">book now</a>
+    </div>
+    </div>
+    
+  </div>
+  </div>
+  
+  <div class="box-item col-md-4">
+  
+   
+    <div class="card1 card1-front ">
+      <h5 class="card-title">Card title</h5>
+    
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSnUFCjZklSAX6ThQyIeA_Ew0EriGOu9pBg&usqp=CAU" class="card1-img-top" alt="...">
+      
+    </div>
+    <div class="card1 card1-back ">
+      <div class="card1-body bg-light">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <a href="#"  class="btn btn-primary">book now</a>
+    </div>
+    </div>
+    
+  </div>
+  </div>
+  
+  
+  
+  
+  </div>
+  
+    
+  </div>
+  
+
+  
+
+
+
+
+
+  
+.card1-container{
+  width: 18rem; 
+  perspective: 200rem;
+  position: relative;
+  
+}
+.card1-container:hover .card1-front{
+   transform: rotateY(180deg);
+
+}
+
+
+.card1-container:hover .card1-back{
+   transform: rotateY(0deg);
+
+}
+
+.card1-back{
+   transform: rotateY(180deg);
+}
+
+
+.card1{
+   transition: all 0.9s;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   backface-visibility: hidden;
+}
+
+
+.card1-back .card1-body{
+   position: relative;
+}
+
+.card1-body a{
+   position: relative;
+   top: 50%;
+   left:50%;
+   margin: -15% 0 0 -25%;
+
+}
+
+
+---------------------------------------------------------------------

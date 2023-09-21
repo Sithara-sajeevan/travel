@@ -1,0 +1,107 @@
+
+.heading{
+    text-align: center;
+    margin-top: 0%;
+    font-size: 50px;
+    font-weight: 500;
+
+
+}
+#about{
+    margin-top: 20px;
+}
+#packages{
+   
+    margin: 15% 8% 0 8%;
+    text-align: center;
+
+}
+
+.card{
+    
+    background:rgb(225, 197, 197);
+    float: left;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 10px 30px;
+    border-radius: 20px;
+}
+
+
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+
+  
+  #services{
+   
+    margin: 18% 8% 0 8%;
+    text-align: center;
+
+}
+
+
+#contact{
+    margin: 25% 8% 0 8%;
+    text-align: center;
+
+}
+
+#footer{
+    margin: 28% 8% 0 8%;
+    
+}
+
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px ;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: rgb(228, 239, 243);
+}
+.icon i{
+    font-size: 30px;
+    color: rgb(12, 15, 24);
+}
+.icon:hover {
+    background-image: linear-gradient(to bottom right, rgb(240, 246, 250) , rgb(21, 164, 216));
+
+}
+.icon:hover i {
+    color: rgb(33, 21, 21);
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+
+
+
